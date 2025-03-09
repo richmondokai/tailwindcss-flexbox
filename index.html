@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seat Layout</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="output.css" rel="stylesheet">
+    <style>
+        /* Custom animation for seat hover */
+        .seat {
+            transition: all 0.3s ease;
+        }
+        .seat:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body class="flex justify-center items-center h-screen bg-gradient-to-r from-purple-50 to-blue-50 font-['Poppins']">
+    <div class="seat-card bg-white rounded-2xl shadow-2xl p-8">
+        <div class="seat-container flex flex-wrap gap-4 justify-center max-w-2xl mx-auto">
+            <!-- Seats -->
+            <div class="seat w-12 h-12 flex justify-center items-center rounded-lg bg-gray-100 shadow-md font-bold cursor-pointer border-l-4 border-red-500">A1</div>
+            <div class="seat w-12 h-12 flex justify-center items-center rounded-lg bg-gray-100 shadow-md font-bold cursor-pointer border-l-4 border-red-500">A2</div>
+            <div class="seat w-12 h-12 flex justify-center items-center rounded-lg bg-gray-100 shadow-md font-bold cursor-pointer border-l-4 border-green-500 border-dashed">A3</div>
+            <div class="seat w-12 h-12 flex justify-center items-center rounded-lg bg-gray-100 shadow-md font-bold cursor-pointer border-l-4 border-gray-300">A4</div>
+            <div class="seat w-12 h-12 flex justify-center items-center rounded-lg bg-gray-100 shadow-md font-bold cursor-pointer border-l-4 border-green-500">A5</div>
+            <div class="seat w-12 h-12 flex justify-center items-center rounded-lg bg-gray-100 shadow-md font-bold cursor-pointer border-l-4 border-green-500">A6</div>
+            <div class="seat w-12 h-12 flex justify-center items-center rounded-lg bg-gray-100 shadow-md font-bold cursor-pointer border-l-4 border-red-500">B1</div>
+            <div class="seat w-12 h-12 flex justify-center items-center rounded-lg bg-gray-100 shadow-md font-bold cursor-pointer border-l-4 border-green-500">B2</div>
+            <div class="seat w-12 h-12 flex justify-center items-center rounded-lg bg-gray-100 shadow-md font-bold cursor-pointer border-l-4 border-red-500">B3</div>
+            <div class="seat w-12 h-12 flex justify-center items-center rounded-lg bg-gray-100 shadow-md font-bold cursor-pointer border-l-4 border-red-500">B4</div>
+            <div class="seat w-12 h-12 flex justify-center items-center rounded-lg bg-gray-100 shadow-md font-bold cursor-pointer border-l-4 border-green-500 border-dashed">B5</div>
+            <div class="seat w-12 h-12 flex justify-center items-center rounded-lg bg-gray-100 shadow-md font-bold cursor-pointer border-l-4 border-green-500">B6</div>
+            <div class="seat w-12 h-12 flex justify-center items-center rounded-lg bg-gray-100 shadow-md font-bold cursor-pointer border-l-4 border-gray-300">C1</div>
+            <div class="seat w-12 h-12 flex justify-center items-center rounded-lg bg-gray-100 shadow-md font-bold cursor-pointer border-l-4 border-red-500">C2</div>
+            <div class="seat w-12 h-12 flex justify-center items-center rounded-lg bg-gray-100 shadow-md font-bold cursor-pointer border-l-4 border-red-500">C3</div>
+            <div class="seat w-12 h-12 flex justify-center items-center rounded-lg bg-gray-100 shadow-md font-bold cursor-pointer border-l-4 border-green-500">C4</div>
+            <div class="seat w-12 h-12 flex justify-center items-center rounded-lg bg-gray-100 shadow-md font-bold cursor-pointer border-l-4 border-green-500 border-dashed">C5</div>
+            <div class="seat w-12 h-12 flex justify-center items-center rounded-lg bg-gray-100 shadow-md font-bold cursor-pointer border-l-4 border-green-500">C6</div>
+            <div class="seat w-12 h-12 flex justify-center items-center rounded-lg bg-gray-100 shadow-md font-bold cursor-pointer border-l-4 border-green-500 border-dashed">C7</div>
+            <div class="seat w-12 h-12 flex justify-center items-center rounded-lg bg-gray-100 shadow-md font-bold cursor-pointer border-l-4 border-gray-300">D1</div>
+        </div>
+    </div>
+</body>
+</html>
